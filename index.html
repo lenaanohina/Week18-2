@@ -9,12 +9,17 @@
 </head>
 
 <body>
-    <h1>Планировщик задач</h1>
-    <input type="text" id="taskInput" placeholder="Введите задачу">
-    <button id="addTaskButton">Добавить в список</button>
-    <p id="noTasksMessage" class="grayed-out">Задачи отсутствуют</p>
-    <ul id="taskList" class="task-list"></ul>
-    <button id="clearListButton" disabled>Очистить список</button>
+    <div class="root">
+        <h1>Планировщик задач</h1>
+        <input type="text" id="taskInput" placeholder="Введите задачу">
+        <button class="btn" id="addTaskButton">Добавить в список &#10004;</button>
+
+
+        <ul id="taskList" class="task-list"><span class="task-list-title">Список задач</span> </ul>
+
+        <p id="noTasksMessage">Задачи отсутствуют</p>
+        <button class="btn" id="clearListButton" disabled>Очистить список &#10006;</button>
+    </div>
 
     <script src="assets/script/script.js"></script>
 </body>

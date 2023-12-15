@@ -1,15 +1,38 @@
+:root {
+  accent-color: rgb(7, 136, 7);
+}
+.root {
+  width: 60%;
+  margin: 0 auto;
+}
+#taskInput {
+  width: 50%;
+  height: 37px;
+  border: none;
+}
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(89, 223, 111);
+  border: none;
+}
+
+#clearListButton {
+  background-color: rgb(211, 218, 225);
+}
+.task-list-title {
+  font-weight: 700;
+}
 .task-list {
   list-style-type: none;
-  padding: 0;
+  padding: 5px;
+  font-size: 18px;
 }
-.task-list-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+
+.completed-task {
+  text-decoration: line-through;
 }
-.checkbox {
-  margin-right: 10px;
-}
-.grayed-out {
+#noTasksMessage {
   color: gray;
+  text-align: center;
 }
